@@ -29,11 +29,11 @@ This project analyzes the **ABC Company Employee Dataset**, consisting of **458 
 
 | Attribute | Details |
 |-----------|---------|
-| Dataset | ABC Company Employee Dataset |
-| Total Records | **458** |
-| Total Columns | **9** |
+| **Dataset** | ABC Company Employee Dataset |
+| **Total Records** | **458** |
+| **Total Columns** | **9** |
 
-**Dataset Features**
+### Dataset Features
 
 - Name
 - Team
@@ -53,17 +53,17 @@ The following preprocessing steps were performed:
 
 - ✔️ Checked for missing values in the dataset.
 - ✔️ Replaced the **Height** column with randomly generated values between **150 cm and 180 cm**.
-- ✔️ Created a separate dataset for salary-based analysis by removing rows with missing salary values.
-- ✔️ Ensured data consistency before performing analysis.
+- ✔️ Created a separate DataFrame for salary-based analysis by removing rows with missing salary values.
+- ✔️ Ensured data consistency before performing the analysis.
 
 ---
 
 ## 📈 Analysis Tasks
 
-The following analyses were performed on the dataset:
+The following analyses were performed:
 
 ### 1️⃣ Employee Distribution Across Teams
-- Calculated the number of employees in each team.
+- Calculated the employee count for each team.
 - Computed the percentage distribution of employees across teams.
 
 ### 2️⃣ Employee Distribution by Position
@@ -71,12 +71,12 @@ The following analyses were performed on the dataset:
 - Counted employees in each position.
 
 ### 3️⃣ Predominant Age Group
-- Grouped employees into age ranges.
+- Grouped employees into different age ranges.
 - Identified the predominant age group.
 
 ### 4️⃣ Salary Expenditure Analysis
-- Calculated total salary expenditure for each team.
-- Calculated total salary expenditure for each position.
+- Calculated the total salary expenditure for each team.
+- Calculated the total salary expenditure for each position.
 - Identified the team and position with the highest salary expenditure.
 
 ### 5️⃣ Correlation Between Age and Salary
@@ -87,24 +87,24 @@ The following analyses were performed on the dataset:
 
 ## 📊 Visualizations
 
-The project includes visualizations for:
+The project includes the following visualizations:
 
-- 📌 Employee Distribution Across Teams
-- 📌 Employee Distribution by Position
-- 📌 Age Group Distribution
-- 📌 Salary Expenditure by Team
-- 📌 Salary Expenditure by Position
+- 📌 Team-wise Employee Distribution
+- 📌 Position-wise Employee Distribution
+- 📌 Employee Age Group Distribution
+- 📌 Team-wise Salary Expenditure
+- 📌 Position-wise Salary Expenditure
 - 📌 Correlation Between Age and Salary
 
 ---
 
 ## 💡 Key Insights
 
-- Employees are distributed across multiple teams with no single team dominating the workforce.
+- Employees are fairly distributed across different teams.
 - The majority of employees belong to the **19–25** age group, indicating a relatively young workforce.
 - The **Center (C)** position has the highest total salary expenditure.
-- Salary expenditure varies across different teams and positions.
-- The correlation coefficient between **Age** and **Salary** is approximately **0.214**, indicating a **weak positive correlation**.
+- Salary expenditure varies across teams and positions.
+- The correlation coefficient between **Age** and **Salary** is approximately **0.214**, indicating a **weak positive correlation**, suggesting that age alone is not a strong predictor of salary.
 
 ---
 
@@ -113,23 +113,11 @@ The project includes visualizations for:
 | Technology | Purpose |
 |------------|---------|
 | Python | Programming Language |
-| Pandas | Data Manipulation and Analysis |
+| Pandas | Data Manipulation & Analysis |
 | NumPy | Numerical Computation |
 | Matplotlib | Data Visualization |
 | Seaborn | Statistical Visualization |
 | Google Colab | Development Environment |
-
----
-
-## 📁 Repository Structure
-
-```text
-ABC-Employee-Data-Analysis/
-│
-├── ABC_Employee_Analysis.ipynb
-├── ABC_Employee.csv
-└── README.md
-```
 
 ---
 
@@ -155,4 +143,4 @@ pip install pandas numpy matplotlib seaborn
 
 ## 📜 Conclusion
 
-This project demonstrates the application of **Python-based data preprocessing, exploratory data analysis, and visualization techniques** to extract meaningful insights from employee data. The analysis provides an understanding of workforce distribution, salary expenditure patterns, employee demographics, and the relationship between age and salary.
+This project demonstrates the use of **Python** for data preprocessing, exploratory data analysis, and visualization to gain meaningful insights from employee data. The findings provide an understanding of workforce distribution, employee demographics, salary expenditure patterns, and the relationship between age and salary.
