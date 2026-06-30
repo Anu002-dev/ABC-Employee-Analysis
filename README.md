@@ -12,7 +12,7 @@ A Python-based Exploratory Data Analysis (EDA) project on the ABC Company Employ
 <img src="https://img.shields.io/badge/NumPy-Numerical%20Computing-013243?logo=numpy">
 <img src="https://img.shields.io/badge/Matplotlib-Visualization-orange">
 <img src="https://img.shields.io/badge/Seaborn-Statistical%20Plots-4C72B0">
-<img src="https://img.shields.io/badge/Jupyter-Notebook-F37626?logo=jupyter">
+<img src="https://img.shields.io/badge/Google-Colab-F9AB00?logo=googlecolab">
 </p>
 
 </div>
@@ -21,7 +21,7 @@ A Python-based Exploratory Data Analysis (EDA) project on the ABC Company Employ
 
 ## 📌 Project Overview
 
-This project analyzes the **ABC Company Employee Dataset** consisting of **458 employee records**. The objective is to preprocess the dataset, perform exploratory data analysis, visualize key findings, and derive meaningful insights about the company's workforce.
+This project analyzes the **ABC Company Employee Dataset**, consisting of **458 employee records**. The objective is to preprocess the dataset, perform exploratory data analysis (EDA), create visualizations, and derive meaningful insights into the company's workforce.
 
 ---
 
@@ -33,7 +33,7 @@ This project analyzes the **ABC Company Employee Dataset** consisting of **458 e
 | Total Records | **458** |
 | Total Columns | **9** |
 
-**Features**
+**Dataset Features**
 
 - Name
 - Team
@@ -49,51 +49,52 @@ This project analyzes the **ABC Company Employee Dataset** consisting of **458 e
 
 ## ⚙️ Data Preprocessing
 
-The following preprocessing steps were performed before analysis:
+The following preprocessing steps were performed:
 
-- ✔️ Checked for missing values.
+- ✔️ Checked for missing values in the dataset.
 - ✔️ Replaced the **Height** column with randomly generated values between **150 cm and 180 cm**.
 - ✔️ Created a separate dataset for salary-based analysis by removing rows with missing salary values.
-- ✔️ Ensured data consistency throughout the analysis.
+- ✔️ Ensured data consistency before performing analysis.
 
 ---
 
-## 📈 Analysis Performed
+## 📈 Analysis Tasks
 
-The following analyses were carried out:
+The following analyses were performed on the dataset:
 
 ### 1️⃣ Employee Distribution Across Teams
-- Calculated employee count for each team.
-- Computed percentage distribution.
+- Calculated the number of employees in each team.
+- Computed the percentage distribution of employees across teams.
 
 ### 2️⃣ Employee Distribution by Position
 - Segregated employees based on their positions.
 - Counted employees in each position.
 
 ### 3️⃣ Predominant Age Group
-- Grouped employees into different age ranges.
-- Identified the most represented age group.
+- Grouped employees into age ranges.
+- Identified the predominant age group.
 
 ### 4️⃣ Salary Expenditure Analysis
-- Determined total salary expenditure by team.
-- Determined total salary expenditure by position.
+- Calculated total salary expenditure for each team.
+- Calculated total salary expenditure for each position.
+- Identified the team and position with the highest salary expenditure.
 
-### 5️⃣ Age vs Salary Correlation
+### 5️⃣ Correlation Between Age and Salary
 - Calculated the Pearson correlation coefficient.
-- Visualized the relationship using a scatter plot.
+- Visualized the relationship using a scatter plot with a regression line.
 
 ---
 
 ## 📊 Visualizations
 
-The project includes graphical representations for:
+The project includes visualizations for:
 
-- 📌 Team-wise Employee Distribution
-- 📌 Position-wise Employee Distribution
+- 📌 Employee Distribution Across Teams
+- 📌 Employee Distribution by Position
 - 📌 Age Group Distribution
 - 📌 Salary Expenditure by Team
 - 📌 Salary Expenditure by Position
-- 📌 Correlation between Age and Salary
+- 📌 Correlation Between Age and Salary
 
 ---
 
@@ -101,8 +102,8 @@ The project includes graphical representations for:
 
 - Employees are distributed across multiple teams with no single team dominating the workforce.
 - The majority of employees belong to the **19–25** age group, indicating a relatively young workforce.
-- Salary expenditure varies across teams and positions.
 - The **Center (C)** position has the highest total salary expenditure.
+- Salary expenditure varies across different teams and positions.
 - The correlation coefficient between **Age** and **Salary** is approximately **0.214**, indicating a **weak positive correlation**.
 
 ---
@@ -112,11 +113,11 @@ The project includes graphical representations for:
 | Technology | Purpose |
 |------------|---------|
 | Python | Programming Language |
-| Pandas | Data Manipulation |
-| NumPy | Numerical Operations |
+| Pandas | Data Manipulation and Analysis |
+| NumPy | Numerical Computation |
 | Matplotlib | Data Visualization |
 | Seaborn | Statistical Visualization |
-| Jupyter Notebook | Development Environment |
+| Google Colab | Development Environment |
 
 ---
 
@@ -132,7 +133,7 @@ ABC-Employee-Data-Analysis/
 
 ---
 
-## 🚀 How to Run
+## ▶️ How to Run
 
 1. Clone this repository.
 
@@ -146,24 +147,12 @@ git clone <repository-url>
 pip install pandas numpy matplotlib seaborn
 ```
 
-3. Open the Jupyter Notebook.
+3. Open the notebook using **Google Colab** or **Jupyter Notebook**.
 
-```bash
-jupyter notebook
-```
-
-4. Run all cells.
+4. Run all cells sequentially to reproduce the analysis and visualizations.
 
 ---
 
 ## 📜 Conclusion
 
-This project demonstrates the use of **Python for data preprocessing, exploratory data analysis, and visualization** to gain meaningful insights from employee data. The analysis highlights workforce distribution, salary expenditure patterns, age demographics, and the relationship between age and salary.
-
----
-
-<div align="center">
-
-**Developed using ❤️ with Python**
-
-</div>
+This project demonstrates the application of **Python-based data preprocessing, exploratory data analysis, and visualization techniques** to extract meaningful insights from employee data. The analysis provides an understanding of workforce distribution, salary expenditure patterns, employee demographics, and the relationship between age and salary.
